@@ -1,0 +1,17 @@
+.box {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 1em;
+
+  border: 2px solid #162546;
+}
+.after-box {
+  clear: left;
+}
+
+img
+{
+	height: 195px;
+	width: 195px;
+}
