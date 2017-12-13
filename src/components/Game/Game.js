@@ -39,7 +39,8 @@ class Game extends Component
 
     //for loop to check to see if image was already clicked on by
     //scanning the array of clicked image id's
-    for(var i = 0; i < this.state.idArray.length; i++)
+    //NOTE: use let i since (i) below is declared again.
+    for(let i = 0; i < this.state.idArray.length; i++)
     {
       
       if(id === this.state.idArray[i])
@@ -59,7 +60,7 @@ class Game extends Component
     //previously clicked on images.
     this.state.idArray.push(id);
 
-    console.log("check " + this.state.score);
+    
 
     //increment if topScore if topScore is beat
     if(this.state.score >= this.state.topScore)
