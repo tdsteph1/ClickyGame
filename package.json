@@ -1,6 +1,5 @@
 {
   "name": "clicky-game",
-  "homepage": "https://tdsteph1.github.io/ClickyGame",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +15,7 @@
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build"
   },
+  "homepage": "https://tdsteph1.github.io/ClickyGame",
   "devDependencies": {
     "gh-pages": "^1.1.0"
   }
